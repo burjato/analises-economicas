@@ -95,6 +95,11 @@ A última aba do relatório contém:
 │
 └── 📄 README.md
 ```
+## 👤 Autor
 
+**Thiago Burjato**  
+Analista de dados  
+📧 Contato: burjato@alumni.usp.br  
+🌐 https://github.com/burjato
 
 

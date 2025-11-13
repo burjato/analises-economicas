@@ -29,8 +29,7 @@ O projeto envolve a criação de um **robusto modelo de dados no Power BI**, int
 As análises foram baseadas em dados disponibilizados em diferentes formatos:
 
 - **Planilhas (Excel/CSV)**  
-- **Conexões em nuvem** (por exemplo, banco de dados FRED online)  
-- Dados públicos adicionais (opcional)
+- **Conexões em nuvem**
 
 Os dados incluem:
 
@@ -60,58 +59,18 @@ As seguintes etapas foram realizadas para construir o modelo no Power BI:
 - Estabelecimento de **relacionamentos estruturados**  
 - Construção de um esquema eficiente (estrela ou floco de neve)  
 
-### 4️⃣ Análises em DAX
-Criação de medidas para:
-
-- Crescimento de renda e renda ajustada pela inflação  
-- Tendências de emprego por setor  
-- Deslocamentos populacionais entre regiões  
-- Correlações entre população, emprego e renda  
-
-### 5️⃣ Criação das Visualizações
+### 4️⃣ Criação das Visualizações
 Foram usados:
 
 - Linhas de tendência  
-- Gráficos de área e barras  
-- Mapas de deslocamento populacional  
-- Painéis de crescimento setorial  
-- Comparações entre renda e inflação  
+- Gráficos de barras  
+- Painéis de emprego setorial    
 
-### 6️⃣ Summary Page
+### 5️⃣ Summary Page
 A última aba do relatório contém:
 
 - Principais insights  
-- Visualizações de destaque  
-- Resumo numérico das tendências  
-- Conclusões estratégicas  
-
----
-
-## 🔍 Tópico(s) da Análise
-
-Você pode escolher qualquer tópico econômico.  
-Este projeto explora:
-
-> **(Preencha com seu tópico escolhido — ou análise múltipla)**
-
-### Exemplos possíveis:
-- Como os centros populacionais dos EUA estão mudando  
-- Como a renda média evoluiu em relação à inflação  
-- Quais setores estão crescendo ou encolhendo  
-- Declínio populacional e seus impactos no mercado de trabalho  
-
----
-
-## 💡 Principais Insights (Exemplo)
-
-> *(Substitua por suas descobertas reais após finalizar o relatório.)*
-
-- O crescimento populacional tem se deslocado para o Sul e Oeste dos EUA.  
-- Renda ajustada pela inflação mostra crescimento mais lento do que a renda nominal.  
-- Setores como tecnologia e saúde apresentam maior crescimento.  
-- Áreas rurais demonstram declínio simultâneo de população e emprego.  
-
----
+- Visualizações de destaque    
 
 ## 🛠 Ferramentas Utilizadas
 
@@ -123,17 +82,16 @@ Este projeto explora:
 - **GitHub** para versionamento  
 
 ---
-📂 us-economy-analysis/
+📂 analises-economicas/
 │
-├── 📊 US_Economic_Indicators.pbix
-├── 📁 data/
-│ ├── population_data.xlsx
-│ ├── employment_data.csv
-│ ├── income_fred_connection.txt
-│ └── additional_sources/
+├── 📊 population statistics data model.pbix
+│ ├── BLS - Avg Hours Per Day Sleeping.csv
+│ ├── BLS - Avg Hours Per Day Socializing and Communicating.csv
+│ ├── BLS - Avg Hours Per Day Watching TV.csv
+│ ├── BLS - Unemployment Rate.csv
+│ ├── Historical Population.xlsx
+│ └── Industry Earnings.xlsx
 │
 └── 📄 README.md
 
-
-## 📁 Estrutura do Repositório
 

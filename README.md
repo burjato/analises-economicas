@@ -82,6 +82,7 @@ A última aba do relatório contém:
 - **GitHub** para versionamento  
 
 ---
+```
 📂 analises-economicas/
 │
 ├── 📊 population statistics data model.pbix
@@ -93,5 +94,7 @@ A última aba do relatório contém:
 │ └── Industry Earnings.xlsx
 │
 └── 📄 README.md
+```
+
 
 
